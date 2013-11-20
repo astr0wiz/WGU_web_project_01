@@ -251,12 +251,14 @@ h4.leader {
     width: 430px;
     height: 476px;
     float: left;
+    margin-right: 20px;
 }
 
 #hypnostuff {
-    margin-right: 50px;
-    margin-left: 50px;
-    float:right;
-    text-align: left; 
-    border: 1px solid white;
+    margin-top: 80px;
 }
+
+.quoteatt {
+    margin: 4px 0 0 22px;
+}
+
