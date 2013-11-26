@@ -4,8 +4,6 @@
 		<meta charset="UTF-8">
 		<title>HTTP5 Test Document</title>
 		<link rel="stylesheet" type="text/css" href="site.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-		<script type="text/javascript" src="basicAction.js"></script>
 	</head>
 	<body>
 		<header>
@@ -13,19 +11,19 @@
 		</header>
 		<nav>
 			<form action="action">
-				<dl>
+                <dl>
                     <dt></dt>
-					<dd><img id="navbtn1" class="mainNavButton" src="button_home.jpg" alt="Home" /></dd>
-                    <dd><img id="navbtn2" class="mainNavButton" src="button_history.jpg" alt="History" /></dd>
-                    <dd><img id="navbtn3" class="mainNavButton" src="button_work.jpg" alt="Work" /></dd>
-                    <dd><img id="navbtn4" class="mainNavButton" src="button_play.jpg" alt="Play" /></dd>
-                    <dd><img id="navbtn5" class="mainNavButton" src="button_goals.jpg" alt="Goals" /></dd>
-				</dl>
+                    <dd><button id="navbtn1" class="mainNavButton" type="submit" formaction="index.html" value="Home" title="Home">Home</button></dd>
+                    <dd><button id="navbtn2" class="mainNavButton" type="submit" formaction="history.html" value="History" title="History">History</button></dd>
+                    <dd><button id="navbtn3" class="mainNavButton" type="submit" formaction="work.html" value="Work" title="Work">Work</button></dd>
+                    <dd><button id="navbtn4" class="mainNavButton" type="submit" formaction="play.html" value="Play" title="Play">Play</button></dd>
+                    <dd><button id="navbtn5" class="mainNavButton" type="submit" formaction="goals.html" value="Goals" title="Goals">Goals</button></dd>
+                </dl>
 			</form>
 		</nav>
 		<!-- ============ Unique Page Content =========== -->
 		<div class="content">
-			<h2>Home</h2>
+            <div class="pagebanner">[-- Home --]</div>
             <section>
                 <article>
                     <div class="articleImageRight">
@@ -133,7 +131,8 @@ Yeah, we have no idea what this is either.
 						</tr>
 						<tr>
 							<td></td>
-							<td><button id="esend">Send It</button></td>
+                            <!--  -->
+							<td><a id="esend" href="mailto:wgu-site-comment@baryballowbarns.com?subject=I really liked the web page&body=Gee, that James certainly knows his stuff.  This site is A+ in my book.  Yessiree, I would recommend James for any web development job.  My life is now complete, having seen his page.">Send It</a></td>
 						</tr>
 					</table>
 				</fieldset>
