@@ -65,19 +65,23 @@ h3 {
     text-shadow: 0.1em 0.1em 1.2em black;
 }
 ol {
-    list-style-type: lower-alpha;
     margin: 10px 12px 10px 20px;
+    list-style-type: decimal;
 }
 ol ol {
-    list-style-type: decimal;
+    list-style-type: lower-alpha;
+    margin:0px 12px 0px 20px;
+}
+ul {
+    list-style-type:disc;
     margin:0px 12px 0px 20px;
 }
 p {
     margin-bottom: 1.5em;
 }
-span.tinyfooter {
-    font-size: 10px;
-    font-family: arial,sans-serif;
+.tinyfooter {
+    font-size: x-small;
+    line-height: 8px;
 }
 footer {
 	border: thin solid brown;
@@ -200,7 +204,7 @@ h4.leader {
     padding-left: 20px;
 }
 .mainNavButton {
-    width: 80px;
+    width: 90px;
     height: 30px;
     margin: 0 0 0 0;
     background-color: transparent;
@@ -210,7 +214,7 @@ h4.leader {
     cursor:pointer;
 }
 .hypnocontainer {
-    height: 510px;
+    min-height: 580px;
 }
 .hypnoflash {
     width: 430px;

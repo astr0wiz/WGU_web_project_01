@@ -37,7 +37,7 @@ $(document).ready(function () {
 	            window.location = "play.html";
 	            break;
 	        case "navbtn5":
-	            window.location = "goals.html";
+	            window.location = "testimonials.html";
 	            break;
 	    }
 	});
