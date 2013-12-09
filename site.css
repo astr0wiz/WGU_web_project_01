@@ -15,7 +15,7 @@ body {
 section, article, header, footer, nav, aside {
 	display: block;
 }
-banner, nav, region, article, aside, footer {
+nav, article, aside, footer {
 	border: none;
 	padding: 5px;
 }
@@ -30,6 +30,15 @@ a:link {
 }
 a:visited {
     color: lightgreen;
+}
+blockquote {
+    margin: 0px 100px 0px 100px;
+}
+figcaption {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: small;
 }
 header {
 	border: none;
@@ -160,7 +169,7 @@ img.asidefloater {
     margin: 0 20px;
     display: inline-block;
 }
-div.mypic {
+#mypic {
 	width: 50px;
 	height: 50px;
 	position: absolute;
@@ -170,7 +179,7 @@ div.mypic {
 	border-left: 2px solid white;
 	border-right: 2px solid gray;
 	border-bottom: 2px solid gray;
-	background: fuchsia url('jim_profile_small.jpg') no-repeat left top;
+	background: transparent url('jim_profile_small.jpg') no-repeat left top;
 }
 div.content {
 	float: left;
@@ -227,4 +236,13 @@ h4.leader {
 }
 .quoteatt {
     margin: 4px 0 0 22px;
+}
+#birthplace {
+    width: 600px;
+    height: 400px;
+}
+#birthplacecontainer {
+    width: 600px;
+    margin: 0px 100px 40px 100px;
+    border-bottom: 1px dotted lightblue;
 }
