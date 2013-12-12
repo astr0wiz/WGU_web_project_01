@@ -6,7 +6,8 @@
 	padding: 0;
 }
 body {
-	background-color: #369;
+	/* background-color: #369; */
+    background: url(book_cover_01.jpg) repeat;
 	color: lightyellow;
 	font-family: Calibri,Helvetica,Arial,Sans;
 	font-size: 12px;
@@ -32,7 +33,10 @@ a:visited {
     color: lightgreen;
 }
 blockquote {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 80px 1.5em 80px;
+    font-style: italic;
+    font-family:'Courier New',Courier,serif;
+    line-height: 1.2em;
 }
 figcaption {
     text-align: center;
@@ -42,21 +46,21 @@ figcaption {
 }
 header {
 	border: none;
-	text-align: center;
-    padding: 10px;
+    padding: 20px;
 	height: 54px;
-    background-color: #997333;
+    margin-left: 100px;
+    /* background-color: #997333; */
 }
 nav {
 	text-align: center;
 /*
 	Gradient generated Oct 22, 2013 at http://www.colorzilla.com/gradient-editor/
 */
-	background: rgb(179,220,237); /* Old browsers */
+	background: none;
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	/*background: linear-gradient(to bottom,  rgba(179,220,237,0) 0%,rgba(41,184,229,1) 25%,rgba(41,184,229,1) 80%,rgba(188,224,238,0) 100%); */
     /*background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(53,109,169,1) 8%,rgba(139,190,229,1) 38%,rgba(139,190,229,1) 48%,rgba(47,103,165,1) 92%,rgba(30,87,153,0) 100%); */
-    background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(53,109,169,1) 8%,rgba(99,164,229,1) 38%,rgba(139,190,229,1) 48%,rgba(47,103,165,1) 92%,rgba(30,87,153,0) 100%); 
+    /*background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(53,109,169,1) 8%,rgba(99,164,229,1) 38%,rgba(139,190,229,1) 48%,rgba(47,103,165,1) 92%,rgba(30,87,153,0) 100%); */
 }
 h1 {
 	font-size: 1.89em;
@@ -102,7 +106,7 @@ section {
 	margin: 8px 8px 8px 8px;
 	padding: 4px 4px 14px 4px;
 	background-color: #47a; 
-    box-shadow: 10px 10px 5px #365d85;
+    box-shadow: 8px 8px 8px #222;
     border-radius: 20px;
 }
 article {
@@ -124,13 +128,18 @@ legend {
 	margin-bottom: 10px;
 }
 .pageAside {
+    /*
 	border-top: thin solid lightgray;
 	border-left: thin solid lightgray;
 	border-right: thin solid #333;
-	border-bottom: thin solid #333;
+	border-bottom: thin solid #333;*/
 	float: right;
 	width: 247px;
-	margin: 10px;
+	margin: 60px 10px 10px 10px;
+    padding: 10px;
+	background-color: #47a; 
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px #222;
 }
 .sectionAside {
 	border: thin solid red;
@@ -173,7 +182,7 @@ img.asidefloater {
 	width: 50px;
 	height: 50px;
 	position: absolute;
-	top: 14px;
+	top: 24px;
 	left: 52px;
 	border-top: 2px solid white;
 	border-left: 2px solid white;
@@ -215,8 +224,9 @@ h4.leader {
 .mainNavButton {
     width: 90px;
     height: 30px;
-    margin: 0 0 0 0;
-    background-color: transparent;
+    margin: 0 4px 0 0;
+    background-color: #6daad6;
+    border-radius: 4px;
 }
 .mainNavButton:hover {
     background-color: white;
@@ -245,4 +255,11 @@ h4.leader {
     width: 600px;
     margin: 0px 100px 40px 100px;
     border-bottom: 1px dotted lightblue;
+}
+.testimonialText {
+    font-family: 'Courier New',courier,serif;
+}
+aside figure img {
+    display: block;
+    margin: 0 auto 20px auto;
 }
