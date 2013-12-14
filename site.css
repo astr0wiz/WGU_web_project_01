@@ -97,7 +97,7 @@ p {
     line-height: 8px;
 }
 footer {
-	border: thin solid brown;
+	border: none;
 	margin: 18px;
 	clear: both;
 	text-align: center;
@@ -153,13 +153,13 @@ img.asidefloater {
 }
 .articleImageRight {
 	border: none;
-    background-color: tan;
+    background-color: #8cb0d2;
     padding: 10px;
 	float: right;
 	margin: 10px 10px 10px 100px;
     text-align: center;
     color: black;
-    box-shadow: 4px 4px 3px #3d6287;
+    box-shadow: 4px 4px 3px #333;
 }
 .articleImageCaption {
     margin: 0 20px;
