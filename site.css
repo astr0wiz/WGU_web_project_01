@@ -263,3 +263,9 @@ aside figure img {
     display: block;
     margin: 0 auto 20px auto;
 }
+.workpic {
+    margin: 0px 100px 40px 100px;
+}
+#hypnostuff figure {
+    float: right;
+}
