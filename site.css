@@ -15,6 +15,7 @@ body {
 }
 section, article, header, footer, nav, aside {
 	display: block;
+	position: relative;
 }
 nav, article, aside, footer {
 	border: none;
